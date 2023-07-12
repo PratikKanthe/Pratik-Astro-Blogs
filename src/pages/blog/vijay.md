@@ -1,9 +1,13 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title: New Trending Blog Post
+title: This is our test blog
 date: 2023-07-13
-author: Anna Dixon
-image: { src: "/images/headshot.jpg", alt: "A picture of a coder" }
+author: Pratik Kanthe
+image:
+  {
+    src: "/images/minh-pham-HI6gy-p-WBI-unsplash.jpg",
+    alt: "A picture of a coder",
+  }
 description: In this project, we’ll build out a custom Astro component for post tags.
 draft: false
 category: Trending
