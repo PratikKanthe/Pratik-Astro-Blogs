@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
 title: New General Blog Post
-date: 2023-07-12
+date: 2023-07-11
 author: Anna Dixon
 image: { src: "/images/headshot.jpg", alt: "A picture of a coder" }
 description: In this project, we’ll build out a custom Astro component for post tags.
