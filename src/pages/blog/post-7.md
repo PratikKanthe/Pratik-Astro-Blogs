@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title: New General Astro Post Tag Component
+title: New General Blog Post
 date: 2023-07-12
 author: Anna Dixon
 image: { src: "/images/headshot.jpg", alt: "A picture of a coder" }
