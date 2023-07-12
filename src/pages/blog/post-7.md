@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
 title: New General Astro Post Tag Component
-date: 2022-12-03
+date: 2023-07-12
 author: Anna Dixon
 image: { src: "/images/post-6.jpg", alt: "A picture of a coder" }
 description: In this project, we’ll build out a custom Astro component for post tags.
