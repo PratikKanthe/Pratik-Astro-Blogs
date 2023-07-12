@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPostLayout.astro"
 title: New Blog Post 45
 date: 2023-07-12
-author: Vijay Bhatter
+author: Anna Dixon
 image:
   {
     src: "/images/minh-pham-HI6gy-p-WBI-unsplash.jpg",
@@ -10,7 +10,7 @@ image:
   }
 description: In this project, we’ll build out a custom Astro component for post tags.
 draft: false
-category: Trending
+category: CSS
 ---
 
 Nisi duis ex aliqua eu officia eiusmod duis magna pariatur. Irure laborum qui aliqua nulla esse cillum laborum aliquip nulla elit. Id id Lorem duis irure cillum culpa. Nulla sint et aliqua velit do. Nulla sit sit proident consectetur enim ullamco aliqua in reprehenderit ullamco officia.
