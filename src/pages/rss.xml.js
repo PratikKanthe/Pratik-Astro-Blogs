@@ -11,12 +11,12 @@ export const get = () => rss({
   description: 'A humble Astronaut’s guide to the stars',
   site: import.meta.env.SITE,
   items: posts.map((post) => ({
-    link: post.url,
-    title: post.frontmatter.title,
-    pubDate: post.frontmatter.date,
-    description: post.frontmatter.description,
+    link: post.slug,
+    title: post.data.title,
+    pubDate: post.data.date,
+    description: post.data.description,
     customData: `
-      <author>${post.frontmatter.author}</author>
+      <author>${post.data.author}</author>
     `
   }))
 });
