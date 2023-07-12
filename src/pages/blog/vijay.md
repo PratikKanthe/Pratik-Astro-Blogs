@@ -17,7 +17,7 @@ Nisi duis ex aliqua eu officia eiusmod duis magna pariatur. Irure laborum qui al
 
 Ad ipsum velit sint enim exercitation mollit consequat elit mollit qui commodo aute. Laboris culpa voluptate aliquip incididunt duis. Cupidatat aliquip et sunt aute fugiat cupidatat irure voluptate. Occaecat officia et sunt.
 
-![Alt text](/images/zana-latif-6kVDN0VGj3c-unsplash.jpg "mobile phone"){ width:300px; height=300px; }
+![Mobile Phone](/images/zana-latif-6kVDN0VGj3c-unsplash.jpg "mobile phone")
 
 Officia tempor voluptate enim consequat cillum aute fugiat cupidatat incididunt magna labore in commodo. Eiusmod nostrud non deserunt. Incididunt excepteur pariatur magna. Proident aute ad in velit labore enim sit cillum ad mollit proident et qui. Esse sunt ullamco ullamco ipsum enim eu esse id eu exercitation laboris magna Lorem. Anim nostrud officia anim velit do exercitation labore mollit excepteur excepteur ex.
 
