@@ -1,12 +1,12 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title: New Trending Blog Post 34
+title: New Blog Post 45
 date: 2023-07-12
-author: Anna Dixon
+author: Vijay Bhatter
 image:
   {
     src: "/images/minh-pham-HI6gy-p-WBI-unsplash.jpg",
-    alt: "A picture of a coder",
+    alt: "A picture of a AI specialist",
   }
 description: In this project, we’ll build out a custom Astro component for post tags.
 draft: false
