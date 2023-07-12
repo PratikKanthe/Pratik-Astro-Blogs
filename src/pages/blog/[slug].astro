@@ -11,49 +11,42 @@ import RelatedPosts from "../../components/RelatedPosts.astro";
 import { formatBlogPosts } from "../../js/utils";
 
 export async function getStaticPaths() {
-    const allPosts = await getCollection("blog");
-    const frontmattedPosts = formatBlogPosts(allPosts);
+  const allPosts = await getCollection("blog");
+  const formattedPosts = formatBlogPosts(allPosts);
 
-    return formattedPosts.map((post)=>({
-        params: {slug: post.slug},
-        props: {
-            post,
-        },
-    }));
+  return formattedPosts.map((post) => ({
+    params: { slug: post.slug },
+    props: {
+      post,
+    },
+  }));
 }
 
 interface Props {
-    post: CollectionEntry<"blog">
+  post: CollectionEntry<"blog">;
 }
 
 const { post } = Astro.props;
 const { title, description, date, category, author, image } = post.data;
+
+const { Content } = await post.render();
+
 const allPosts = await getCollection("blog");
-const {Content} = await post.render();
-
 const formattedPosts = formatBlogPosts(allPosts, {
-    sortByDate: false,
+  sortByDate: false,
 });
-
 const relatedPosts = formattedPosts
   .filter(
-    (post) =>
-      post.data.category.toLowerCase() === category.toLowerCase() &&
-      post.data.title !== title
+    (post) => post.data.category === category && post.data.title !== title
   )
   .slice(0, 3);
 ---
 
-<MainLayout
-  {title}
-  {description}
-  image={image}
-  {post.data}
->
+<MainLayout {title} {description} image={image} {post.data}>
   <PostHeader {title} {description} {date} {category} {image} {author} />
   <div class="post-content">
     <div class="content">
-        <Content />
+      <Content />
     </div>
     <div class="sidebar">
       <aside class="container" aria-label="Blog categories">
