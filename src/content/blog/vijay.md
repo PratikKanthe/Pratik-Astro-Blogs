@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPostLayout.astro"
 title: New Trending Blog Post 34
 date: 2023-07-12
-author: Anna Dixon
+author: Vijay Bhatter
 image:
   {
     src: "/images/minh-pham-HI6gy-p-WBI-unsplash.jpg",
