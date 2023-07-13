@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPostLayout.astro"
 title: New Trending Blog Post 34
 date: 2023-07-12
 author: Vijay Bhatter

@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPostLayout.astro"
 title: New General Blog Post
 date: 2023-07-11
 author: Anna Dixon
